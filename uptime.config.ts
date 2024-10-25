@@ -49,12 +49,12 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+      id: 'proxies',
+      name: 'OpenAI API Proxies',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '175.178.104.5:22',
+      target: '175.178.104.5',
       tooltip: 'proxies',
       // statusPageLink: 'https://example.com',
       timeout: 1000,
